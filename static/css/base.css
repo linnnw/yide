@@ -35,8 +35,7 @@ h1,h2,h3,h4 {
     color: #555;
 }
 .navbar .container .logo {    /*logo*/
-    font-size: 36px;
-    color: #19c3ad;
+    margin-top: 7px;
 }
 .navbar .container .logo:hover {    /*logo*/
     color: #19c3ad;
@@ -422,13 +421,15 @@ content_r_c p {
     /* width: 300px; */
     font-size: 14px;
     line-height: 24px;
+    margin-bottom: 20px;
 }
-.tel {
-    margin: 22px 0;
-}
+
 .map {
     float: right;
     margin-top: 35px;
+}
+.map img {
+    border-radius: 3px;
 }
 
 

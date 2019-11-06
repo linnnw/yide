@@ -2,7 +2,8 @@
 
 
     .container {
-        padding: 0 10px!important;
+        padding: 0 15px!important;
+        width: unset!important;
     }
 
     .swiper img {
@@ -66,7 +67,10 @@
     .about h1 {
         font-size: 22px;
         font-weight: normal;
-        margin: .267895rem 0;
+        margin: .367895rem 0 .167895rem 0;
+    }
+    .about p {
+        line-height: 18px;
     }
     .about img {
         width: 4.42rem;
@@ -119,6 +123,7 @@
     }
     .contact_l h3 {
         font-size: 22px;
+        margin: 50px 0 25px 0;
     }
     .contact_l h4 {
         font-size: 20px;
@@ -144,5 +149,9 @@
     }
     .copyright {
         margin-top: 30px;
+    }
+    .erweima {
+        position: absolute;
+        right: 15px;
     }
 }

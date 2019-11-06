@@ -8,7 +8,7 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="static/css/normalize.css">
-    <link rel="stylesheet" href="static/css/pc.css">
+    <link rel="stylesheet" href="static/css/base.css">
         <link rel="stylesheet" href="static/css/pad.css">
     <link rel="stylesheet" href="static/css/mobile.css">
     <link rel="stylesheet" href="static/css/animate.css">
@@ -38,6 +38,19 @@
             transform: translateY(25px);
         }
     }
+    @media screen and (min-width: 992px) and (max-width: 1020px) {
+        .container {
+            width: unset;
+        }
+    }
+    @media screen and (width: 768px){
+        .w465 div {
+            position: absolute;
+            left: -0.547368rem;
+            top: 0;
+            transform: translateY(25px);
+        }
+    }
 </style>
 <body>
 
@@ -52,7 +65,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand logo" >易德信息</a>
+                    <a class="navbar-brand logo"><img src="static/images/ycLogo.png" alt=""></a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -378,7 +391,7 @@
         } else if ( pageYOffset < (caseTop - 70) ) {
             exclusive();
             jumpabout.style.color = '#19c3ad'
-        } else if ( pageYOffset < (serviceTop - 350) ) {    /* 联系我们的长度不够只能用服务的高度代替联系我们 */
+        } else if ( pageYOffset < (serviceTop - 400) ) {    /* 联系我们的长度不够只能用服务的高度代替联系我们 */
             exclusive();
             jumpcase.style.color = '#19c3ad'
         } else {
