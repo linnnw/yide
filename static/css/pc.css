@@ -358,7 +358,7 @@ content_r_c p {
 }
 .classic li h3 {
     font-size: 22px;
-    margin: 24px 0;
+    margin: 24px 0 15px 0;
 }
 .classic li p {
     font-size: 14px;
@@ -367,13 +367,13 @@ content_r_c p {
 .case .classic h2 {
     font-size: 33px;
     font-weight: normal;
-    margin: 40px 0;
+    margin: 40px 0 20px 0;
 }
 
 /* 服务内容 */
 .service h2 {
     font-size: 33px;
-    margin: 48px 0;
+    margin: 48px 0 10px 0;
 }
 .service li {
     height: 160px;
