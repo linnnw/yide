@@ -29,6 +29,7 @@ h1,h2,h3,h4 {
 
 
 /*导航栏样式*/
+
 .navbar .container a {
     line-height: 55px;
     color: #555;
@@ -80,6 +81,50 @@ h1,h2,h3,h4 {
     right: .252632rem!important;
 }
 /* end */
+.img_text {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 1.578947rem
+}
+.img_text li img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 50%;
+    width: .342105rem;
+    height: .342105rem;
+
+}
+.img_text li:nth-child(2) img {
+    width: .478947rem;
+    height: .236842rem;
+    bottom: 53%;
+}
+.img_text h1 {
+    font-size: .3rem;
+    color: #fff;
+    text-align: center;
+}
+.img_text p {
+    position: absolute;
+    bottom: .221053rem;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    font-size: .136842rem;
+
+}
+.img_text ul {
+    display: flex;
+    width: 3.473684rem;
+    height: 1.110526rem;
+}
+.img_text ul li {
+    position: relative;
+    flex: 1;
+}
+
 
 
 .nav_pc {
@@ -337,6 +382,22 @@ content_r_c p {
 .service .img_center {
     width: 128px;
     margin: 0 auto;
+}
+.service_img {
+    position: relative;
+}
+.service_img img {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+}
+.service_p {
+    position: absolute;
+    bottom: 0;
+    font-size: 16px;
+    width: 90%;
+    text-align: center;
 }
 
 /* 联系我们 */
