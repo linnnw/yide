@@ -1,0 +1,138 @@
+@media screen and (min-width: 768px) and (max-width: 1339px){
+
+
+    .container {
+        padding: 0 10px!important;
+    }
+
+    .swiper img {
+        width: 10.905263rem;
+        height: 6.305263rem;
+    }
+    .swiper-container {
+        /*width: 600px;*/
+        height: 5.305263rem;
+        --swiper-navigation-color: #fff;/* 单独设置按钮颜色 */
+        --swiper-navigation-size: .105263rem;/* 设置按钮大小 */
+    }
+    .swiper-button-prev,
+    .swiper-button-next{            /*轮播图左右按钮样式*/
+        width: .189474rem!important;
+        height: .189474rem!important;
+        border-radius: 50%;
+        background-color: #9d9a93;
+
+    }
+    .swiper-button-prev {
+        left: .252632rem!important;
+    }
+    .swiper-button-next {
+        right: .252632rem!important;
+    }
+
+
+    .w465 h1 {
+        font-size: 16px;
+        font-weight: normal;
+    }
+    .w465 p {
+        overflow: hidden;
+        font-size: 12px;
+    }
+
+
+
+    .nav_pc div.nav_l,
+    .nav_pc div.nav_c,
+    .nav_pc div.nav_r {
+        height: 170px;
+    }
+
+
+    .about {
+        padding-bottom: 35px!important;
+        overflow: hidden;
+    }
+    .about h1 {
+        font-size: 22px;
+        font-weight: normal;
+        margin: .267895rem 0;
+    }
+    .about img {
+        width: 4.42rem;
+        height: 3.25rem;
+        border-radius: .021579rem;
+    }
+    .about .content_r {
+        font-size: 12px;
+        line-height: .184211rem;
+    }
+    .content_r_c h3 {
+        font-size: 16px;
+        margin-top: 0;
+    }
+    .content_r_c {
+        position: relative;
+        width: 2.184211rem;
+
+    }
+
+    .content_r_c img {
+        width: .284211rem;
+        height: .284211rem;
+        position: absolute;
+        left: -0.384211rem;
+        top: 0;
+    }
+    content_r_c p {
+        font-size: .073684rem;
+    }
+    .kouhao {
+        width: 400px;
+    }
+
+    .classic img {
+        width: 2.9rem;
+        height: 1.9rem;
+        border-radius: 3px;
+        margin: 0 auto;
+    }
+    .case .classic ul li {
+        width: 2.9rem;
+        /*float: left;*/
+        position: relative;
+    }
+    .case .classic h2 {
+        font-size: 22px;
+        font-weight: normal;
+        margin: 40px 0;
+    }
+    .contact_l h3 {
+        font-size: 22px;
+    }
+    .contact_l h4 {
+        font-size: 20px;
+    }
+
+    .service h2 {
+        font-size: 22px;
+    }
+
+    .data {
+        height: 400px;
+    }
+    .data_r {
+        margin-top: 1.0rem;
+    }
+    .data .data_l h3 {
+        font-size: 22px;
+    }
+    .map img {
+        margin-top: 0.4rem;
+        width: 5.2rem;
+
+    }
+    .copyright {
+        margin-top: 30px;
+    }
+}
