@@ -8,7 +8,7 @@
 
     .swiper img {
         width: 10.905263rem;
-        height: 6.305263rem;
+        height: 5.5rem;
     }
     .swiper-container {
         /*width: 600px;*/
@@ -16,14 +16,13 @@
         --swiper-navigation-color: #fff;/* 单独设置按钮颜色 */
         --swiper-navigation-size: .105263rem;/* 设置按钮大小 */
     }
+
     .swiper-button-prev,
     .swiper-button-next{            /*轮播图左右按钮样式*/
-        width: .189474rem!important;
-        height: .189474rem!important;
-        border-radius: 50%;
-        background-color: #9d9a93;
 
+        opacity: 0;
     }
+
     .swiper-button-prev {
         left: .252632rem!important;
     }
