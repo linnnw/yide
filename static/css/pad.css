@@ -7,7 +7,7 @@
     }
 
     .swiper img {
-        width: 10.905263rem;
+        width: 12.905263rem;
         height: 5.5rem;
     }
     .swiper-container {
@@ -31,15 +31,18 @@
     }
 
     .img_text p {
-        position: absolute;
         bottom: .121053rem;
-        left: 50%;
-        transform: translateX(-50%);
-        color: #fff;
         font-size: .136842rem;
 
     }
+    .img_text2 p {
+        /*bottom: 0;*/
 
+    }
+
+    .img_text2 ul li {
+        /*height: .48421rem;*/
+    }
 
     .w465 h1 {
         font-size: 16px;
